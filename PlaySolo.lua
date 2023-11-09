@@ -67,8 +67,7 @@ local function ReloadCharacter() pcall(function() dofile("rbxasset://scripts//Ch
 
 if not player then
 	player = game.Players:createLocalPlayer(0)
-    player:SetSuperSafeChat(false);
-	player.CharacterAppearance = 0
+        player:SetSuperSafeChat(false);
 	if _G.RetardPlayerNames then
 		player.Name = PlayerName
 	end
